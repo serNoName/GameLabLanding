@@ -1,0 +1,53 @@
+.h1 {
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+}
+.h2 {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+    text-align: center;
+    &_green {
+        color: $green;
+    }
+    &_left {
+        width: 100%;
+        text-align: left;
+    }
+}
+.text {
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    &_section {
+        margin-bottom: 32px;
+    }
+    &_left {
+        text-align: left;
+    }
+    &_what {
+        margin-bottom: 32px;
+    }
+    &_hubs {
+        max-width: 640px;
+        margin-bottom: 16px;
+    }
+    &_center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.subtitle {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    &_promo {
+        max-width: 778px;
+    }
+}

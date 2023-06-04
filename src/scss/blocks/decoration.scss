@@ -1,0 +1,156 @@
+.glowing {
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+    user-select: none;
+    filter: blur(125px);
+
+    &_1 {
+        top: 0;
+        right: 0;
+    }
+    &_2 {
+        top: 0;
+        left: 0;
+    }
+    &_3 {
+        bottom: -160px;
+        right: -240px;
+        filter: blur(150px)
+    }
+    &_4 {
+        top: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &_5 {
+        top: 140px;
+        left: 0;
+    }
+    &_6 {
+        top: 0;
+        left: -420px;
+    }
+    &_7 {
+        right: -288px;
+        top: -150px;
+    }
+    &_8 {
+        bottom: 50px;
+        right: 0;
+        z-index: 2;
+    }
+    &_9 {
+        left: -300px;
+        bottom: -165px;
+    }
+    &_10 {
+        right: -410px;
+        top: 0;
+    }
+    &_11 {
+        left: -182px;
+        bottom: -100px;
+    }
+    &_12 {
+        right: -200px;
+        top: -115px;
+    }
+}
+.lines {
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+    user-select: none;
+    &_2 {
+        left: 0;
+        top: -204px;
+    }
+    &_3 {
+        right: 0;
+        bottom: -20px;
+    }
+}
+.bg {
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+    &_promo {
+        right: 0;
+        top: 62px;
+    }
+    &_become {
+        width: 100%;
+        max-width: 1920px;
+        left: 50%;
+        bottom: 50px;
+        transform: translateX(-50%);
+    }
+}
+.decor {
+    user-select: none;
+    position: absolute;
+    &_1 {
+        top: 12px;
+        left: 36px;
+    }
+    &_2 {
+        transform: rotate(-4deg);
+        right: 2px;
+        top: 160px;
+        box-shadow: -20px 25px 30px rgba(21, 21, 24, 0.8);
+        border-radius: 6px;
+    }
+    &_3 {
+        left: 368px;
+        top: 230px;
+    }
+    &_4 {
+        left: -192px;
+        top: -98px;
+    }
+    &_5 {
+        left: 600px;
+        top: 180px;
+    }
+    &_6 {
+        width: 24px;
+        height: 24px;
+        left: 125px;
+        top: 75px;
+    }
+    &_7 {
+        left: -35px;
+        bottom: 191px;
+    }
+    &_8 {
+        width: 16px;
+        height: 16px;
+        bottom: 29px;
+        right: 169px;
+    }
+    &_9 {
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        transform: rotate(2deg);
+    }
+    &_10 {
+        left: -25px;
+        top: 200px;
+    }
+    &_11 {
+        left: 381px;
+        top: 233px;
+    }
+    &_12 {
+        right: 121px;
+        top: 12px;
+        z-index: -1;
+    }
+    &_13 {
+        left: 179px;
+        top: 12px;
+        z-index: -1;
+    }
+}

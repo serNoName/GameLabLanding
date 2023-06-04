@@ -1,0 +1,17 @@
+.form-mailing {
+    display: flex;
+    gap: 12px;
+
+    &__input {
+        width: 320px;
+    }
+}
+
+.info-img {
+    &-1 {
+        margin-top: 100px;
+    }
+    &-2 {
+        transform: translateX(70px);
+    }
+}
