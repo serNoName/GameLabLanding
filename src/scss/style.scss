@@ -255,7 +255,7 @@ svg {
     }
 
     &_become {
-        padding-top: 500px;
+        padding-top: 433px;
         padding-bottom: 386px;
     }
 
@@ -284,6 +284,12 @@ svg {
 .cols-2 {
     display: flex;
     justify-content: space-between;
+    &_reverse {
+        flex-direction: row-reverse;
+    }
+    &_wiki {
+        column-gap: 48px;
+    }
 }
 
 .col {

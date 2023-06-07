@@ -56,6 +56,10 @@
         right: -200px;
         top: -115px;
     }
+    &_13 {
+        left: 0;
+        bottom: 0;
+    }
 }
 .lines {
     user-select: none;
@@ -76,20 +80,22 @@
     position: absolute;
     z-index: -1;
     &_promo {
-        right: 0;
+        right: -100px;
         top: 62px;
+        z-index: 2;
     }
     &_become {
-        width: 100%;
-        max-width: 1920px;
         left: 50%;
-        bottom: 50px;
-        transform: translateX(-50%);
+        top: 200px;
+        // box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.3);
+        border-radius: 16px;
+        transform: translate(-50%) rotate(-4deg);
     }
 }
 .decor {
     user-select: none;
     position: absolute;
+    max-width: none;
     &_1 {
         top: 12px;
         left: 36px;
@@ -103,7 +109,7 @@
     }
     &_3 {
         left: 368px;
-        top: 230px;
+        top: 150px;
     }
     &_4 {
         left: -192px;
@@ -144,13 +150,51 @@
         top: 233px;
     }
     &_12 {
-        right: 121px;
-        top: 12px;
+        left: -200px;
+        bottom: -71px;
         z-index: -1;
     }
     &_13 {
-        left: 179px;
-        top: 12px;
+        right: -183px;
+        bottom: -86px;
         z-index: -1;
+    }
+    &_14 {
+        top: 301px;
+        left: 537px;
+        transform: rotate(-2deg);
+    }
+    &_15 {
+        top: 469px;
+        left: 465px;
+        transform: rotate(1deg);
+    }
+    &_16 {
+        top: 582px;
+        left: 362px;
+    }
+    &_17 {
+        right: 277px;
+        bottom: 248px;
+        transform: rotate(-3deg);
+    }
+    &_18 {
+        z-index: -2;
+        opacity: .5;
+        right: calc(50% + 444px);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &_19 {
+        z-index: -2;
+        opacity: .5;
+        left: calc(50% + 444px);
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &_20 {
+        top: 155px;
+        left: 52%;
+        transform: translateX(-50%);
     }
 }

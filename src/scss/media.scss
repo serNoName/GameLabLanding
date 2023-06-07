@@ -1,9 +1,52 @@
+@media (max-height: 800px) {
+    .section {
+        &_promo {
+            padding-top: 40px;
+        }
+    }
+}
+@media (max-height: 800px) and (min-width: 1320px) {
+    .section {
+        &_promo {
+            padding-top: 40px;
+        }
+    }
+    .promo {
+        &__content {
+            margin-top: 240px;
+        }
+    }
+    .bg {
+        &_promo {
+            top: -60px;
+        }
+    }
+}
+@media (max-height: 700px) and (min-width: 1320px) {
+    .section {
+        &_promo {
+            padding-top: 40px;
+        }
+    }
+    .promo {
+        &__content {
+            margin-top: 200px;
+        }
+    }
+    .bg {
+        &_promo {
+            top: -90px;
+        }
+    }
+}
+
 @media (max-width: 1700px) {
     .bg {
         &_promo {
             right: -200px;
         }
     }
+
     .badge {
         &_hubs {
             &-3 {
@@ -23,6 +66,7 @@
                 right: 273px;
                 bottom: -32px;
             }
+
             &-7 {
                 right: 500px;
                 top: auto;
@@ -30,10 +74,17 @@
             }
         }
     }
+
+    .bg {
+        &_become {
+            top: 80px;
+        }
+    }
+
     .section {
         &_become {
             padding-top: 300px;
-            padding-bottom: 280px;
+            // padding-bottom: 280px;
         }
     }
 }
@@ -41,177 +92,253 @@
 @media (max-width: 1480px) {
     .badge {
         &_hubs {
-            &-1, &-2, &-8 {
+
+            &-1,
+            &-2,
+            &-8 {
                 display: none;
             }
         }
     }
+
     .decor_1 {
         top: 80px;
         left: 120px;
     }
 }
+
 @media (max-width: 1412px) {
     .container {
         padding: 0 12px;
     }
 }
+
 @media (max-width: 1320px) {
     .bg {
         &_promo {
             top: 0;
             right: -400px;
         }
+
         &_become {
-            bottom: -48px;
+            width: 1000px;
+            top: 0;
         }
     }
+
     .section {
         padding-bottom: 90px;
+
         &_promo {
             padding-top: 40px;
             padding-bottom: 360px;
         }
+
         &_become {
-            padding-top: 200px;
+            padding: 220px 0;
+            // padding-top: 200px;
         }
     }
+
     .decor {
         &_1 {
             display: none;
         }
+
         &_2 {
             right: 32px;
         }
+
         &_7 {
             left: 35px;
             bottom: 80px;
         }
+
         &_9 {
             width: 80%;
         }
     }
+
     .badge_hubs-7 {
         display: none;
     }
 }
+
 @media (max-width: 1140px) {
     .bg {
         &_promo {
             display: none;
         }
     }
+
     .section {
         &_promo {
             padding-top: 40px;
             padding-bottom: 200px;
         }
+
         &_what {
             padding-bottom: 80px;
         }
+
         &_hubs {
             padding-bottom: 140px;
         }
     }
+
     .cols-2 {
         flex-direction: column;
+
         &_portfolio {
             flex-direction: column-reverse;
         }
     }
+
     .promo {
         &__content {
             margin-top: 120px;
         }
     }
+
     .h1 {
         font-size: 60px;
     }
+
     .subtitle {
         font-size: 22px;
     }
+
     .lines {
-        &_2, &_3{
+
+        &_2,
+        &_3 {
             display: none;
         }
     }
+
     .decor {
-        &_3, &_10, &_11, &_5 {
+
+        &_3,
+        &_10,
+        &_11,
+        &_5,
+        &_20 {
             display: none;
         }
+
         &_9 {
             left: 50%;
             transform: rotate(2deg) translateX(-50%);
             width: 80%;
         }
     }
+
     .info-img {
         &-2 {
             transform: none;
             margin-top: 64px;
         }
+
         &-3 {
             margin-top: 64px;
         }
+
         &-4 {
             margin-top: 48px;
         }
     }
 }
+
 @media (max-width: 1024px) {
     .h2 {
         font-size: 48px;
         margin-bottom: 20px;
     }
+
     .bg {
         &_become {
-            width: 130%;
+            width: 90%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(-4deg);
         }
     }
+
     .badge_hubs {
         display: none;
     }
+
     .decor {
         &_2 {
             display: none;
         }
+        &_18 {
+            display: none;
+        }
+        &_19 {
+            display: none;
+        }
     }
 }
+
 @media (max-width: 768px) {
     .short-info {
         &__header {
             transform: rotate(-2deg) translate(-12px, 30px);
         }
     }
+
     .info-img {
-        &-1, &-2, &-5 {
+
+        &-1,
+        &-2,
+        &-5,
+        &-6 {
             display: none;
         }
     }
+
     .decor {
-        &_4, &_6, &_7, &_8, &_9 {
+
+        &_4,
+        &_6,
+        &_7,
+        &_8,
+        &_9 {
             display: none;
         }
     }
+
     .section {
         &_info {
-            &-1, &-2, &-3, &-4, &-5, &-6 {
+
+            &-1,
+            &-2,
+            &-3,
+            &-4,
+            &-5,
+            &-6 {
                 padding: 24px 0;
             }
         }
     }
+
     .bg {
         &_become {
             display: none;
         }
     }
+
     .glowing {
-        &_11, &_12 {
+
+        &_11,
+        &_12 {
             display: none;
         }
     }
+
     .footer {
         padding: 12px 0;
+
         &-nav {
             display: flex;
             flex-direction: column;
@@ -219,42 +346,53 @@
         }
     }
 }
+
 @media (max-width: 576px) {
     .short-info {
         &__header {
             transform: rotate(-2deg) translate(-6px, 30px);
         }
+
         &__title {
             font-size: 24px;
         }
     }
+
     .h1 {
         font-size: 48px;
     }
+
     .h2 {
         font-size: 36px;
     }
+
     .text {
         font-size: 16px;
     }
+
     .subtitle {
         font-size: 20px;
     }
+
     .form-mailing {
         flex-direction: column;
     }
+
     .nav {
         &__list {
             gap: 24px 32px;
         }
+
         &__link {
             font-size: 16px;
         }
     }
 }
+
 @media (max-width: 480px) {
     .footer {
         padding-bottom: 24px;
+
         &__body {
             flex-direction: column;
             align-items: start;
@@ -263,22 +401,33 @@
             gap: 24px;
         }
     }
+
+    .button {
+        &_welcome {
+            width: 100%;
+        }
+    }
 }
+
 @media (max-width: 360px) {
     .h1 {
         font-size: 36px;
         margin-bottom: 16px;
     }
+
     .h2 {
         font-size: 26px;
     }
+
     .subtitle {
         font-size: 18px;
         margin-bottom: 32px;
     }
+
     input[type="email"] {
         width: 296px;
     }
+
     .section {
         &_promo {
             padding-bottom: 120px;

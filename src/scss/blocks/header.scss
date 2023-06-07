@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: 2;
     &__wrapper {
         display: flex;
         justify-content: space-between;

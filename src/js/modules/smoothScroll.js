@@ -1,5 +1,5 @@
 export function smoothScroll() {
-    $('a[href^="#"]').on('click', function (event) {
+    $('a[href^="#"].smooth-scroll').on('click', function (event) {
         const target = $($(this).attr('href'));
 
         if (target.length) {
