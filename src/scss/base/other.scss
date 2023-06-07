@@ -13,5 +13,9 @@
     }
     &-2 {
         transform: translateX(70px);
+        z-index: -2;
+    }
+    &-6 {
+        z-index: -1;
     }
 }

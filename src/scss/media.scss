@@ -157,6 +157,12 @@
         &_9 {
             width: 80%;
         }
+        &_20 {
+            z-index: -1;
+        }
+    }
+    .info-img-6 {
+        z-index: -1;
     }
 
     .badge_hubs-7 {
@@ -245,6 +251,17 @@
 
         &-4 {
             margin-top: 48px;
+        }
+    }
+
+    .glowing {
+        &_5 {
+            z-index: 2;
+        }
+        &_13 {
+            left: 50%;
+            bottom: 50%;
+            transform: translate(-50%, 50%);
         }
     }
 }
