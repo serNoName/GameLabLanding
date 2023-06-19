@@ -70,6 +70,7 @@ select {
     font-weight: 500;
     padding: 12px 16px;
     line-height: 1.2;
+    appearance: none;
     -webkit-appearance: none;
     cursor: pointer;
 }
@@ -201,15 +202,15 @@ svg {
     vertical-align: middle;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+// .wrapper {
+//     // display: flex;
+//     flex-direction: column;
+//     // min-height: 100vh;
+// }
 
-.main {
-    flex: 1;
-}
+// .main {
+//     // flex: 1;
+// }
 
 .container {
     max-width: 1328px;

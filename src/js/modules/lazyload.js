@@ -44,4 +44,9 @@ export function lazyload() {
     images.forEach(img => {
         observer.observe(img)
     })
+
+    images.forEach(function(img) {
+        var height = img.getAttribute('height'); // Получение значения атрибута height
+        img.style.height = height; // Установка высоты изображения
+    });
 }
