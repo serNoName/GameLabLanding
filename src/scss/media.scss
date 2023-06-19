@@ -127,6 +127,7 @@
     }
 
     .section {
+        padding-top: 80px;
         padding-bottom: 90px;
 
         &_promo {
@@ -168,6 +169,7 @@
     .badge_hubs-7 {
         display: none;
     }
+
 }
 
 @media (max-width: 1140px) {
@@ -423,6 +425,10 @@
         &_welcome {
             width: 100%;
         }
+    }
+
+    .input-transparent, .input-transparent[type="email"] {
+        width: 100%;
     }
 }
 
