@@ -310,6 +310,7 @@
 }
 .short-info {
 	width: fit-content;
+	z-index: 2;
 	&__header {
 		position: relative;
 		width: fit-content;

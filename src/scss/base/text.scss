@@ -19,6 +19,14 @@
         text-align: left;
     }
 }
+.h3 {
+    font-weight: 600;
+    margin-top: 18px;
+    font-size: 28px;
+    span {
+        color: $green;
+    }
+}
 .text {
     font-size: 18px;
     line-height: 160%;

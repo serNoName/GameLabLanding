@@ -312,7 +312,7 @@
         &-2,
         &-5,
         &-6 {
-            display: none;
+            // display: none;
         }
     }
 
@@ -329,7 +329,11 @@
 
     .section {
         &_info {
-
+            &:nth-child(odd) {
+                .cols-2 {
+                    flex-direction: column-reverse;
+                }
+            }
             &-1,
             &-2,
             &-3,
